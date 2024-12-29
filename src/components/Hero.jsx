@@ -1,5 +1,5 @@
 import { HERO } from "../constants"
-import carlImg from "../assets/carl.jpeg"
+import carlImg from "../assets/raja.jpg"
 
 const Hero = () => {
   return (
