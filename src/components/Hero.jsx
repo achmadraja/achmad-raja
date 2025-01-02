@@ -31,8 +31,8 @@ const Hero = () => {
                         animate={{ opacity:1 }}
                         transition={{ duration: 1 }}
                         src={carlImg} 
-                        width={550} 
-                        height={550} 
+                        width={450} 
+                        height={450} 
                         alt="Achmad Raja" 
                         className="rounded-3xl"/>
                 </div>

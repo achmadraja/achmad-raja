@@ -22,6 +22,12 @@ const EducationSection = () => {
                         <h3 className="text-xl font-semibold">{education.degree}</h3>
                         <p className="text-lg">{education.institution}</p>
                         <p className="text-sm text-stone-300">{education.duration}</p>
+                        <p className="text-sm text-base">{education.description1}</p>
+                        <p className="text-sm text-base">{education.description2}</p>
+                        <p className="text-sm text-base">{education.description3}</p>
+                        <p className="text-sm text-base">{education.description4}</p>
+                        <p className="text-sm text-base">{education.description5}</p>
+                        <p className="text-sm text-base">{education.description6}</p>
                         <p className="text-sm text-base">{education.description}</p>
                 </motion.div>
             ))}
