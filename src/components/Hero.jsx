@@ -1,6 +1,7 @@
 import { HERO } from "../constants";
 import carlImg from "../assets/raja.jpg";
 import { motion } from "framer-motion";
+import Typewriter from 'typewriter-effect';
 
 const Hero = () => {
   return (
@@ -14,7 +15,14 @@ const Hero = () => {
             {HERO.name}
         </h2>
         <p className="p-2 text-3xl tracking-tighter lg:text-4xl">
-            {HERO.greet}
+            {/* {HERO.greet} */}
+            <Typewriter
+                options={{
+                    strings: ['Hello World!', 'Hello there! 👋'],
+                    autoStart: true,
+                    loop: true,
+                }}
+            />
         </p>
         <p className="mb-8 p-2 text-xl">
             {HERO.description}
