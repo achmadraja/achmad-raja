@@ -1,7 +1,9 @@
 import { HERO } from "../constants";
-import carlImg from "../assets/raja.jpg";
+import rajaImg from "../assets/raja.jpg";
+import rajaResume from "../assets/Resume - Achmad Raja.pdf";
 import { motion } from "framer-motion";
 import Typewriter from 'typewriter-effect';
+import { HiDocumentArrowDown } from "react-icons/hi2";
 
 const Hero = () => {
   return (
@@ -26,6 +28,11 @@ const Hero = () => {
         </p>
         <p className="mb-8 p-2 text-xl">
             {HERO.description}
+            <div className="mb-2 py-5">
+                <a href={rajaResume} download className="inline-flex items-center gap-2 rounded border border-stone-50/30 bg-stone-200 px-4 py-2 text-sm font-semibold text-stone-900 hover:bg-stone-300">
+                    Download Resume <HiDocumentArrowDown />
+                </a>
+            </div>
         </p>
         </motion.div>
         <motion.div
@@ -38,7 +45,7 @@ const Hero = () => {
                         initial={{ opacity:0 }} 
                         animate={{ opacity:1 }}
                         transition={{ duration: 1 }}
-                        src={carlImg} 
+                        src={rajaImg} 
                         width={450} 
                         height={450} 
                         alt="Achmad Raja" 
