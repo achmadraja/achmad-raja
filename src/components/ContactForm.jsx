@@ -78,7 +78,7 @@ const ContactForm = () => {
                 onSubmit={handleSubmit}>
                 <div className="mb-4 flex space-x-4">
                     <div className="lg:w-1/2">
-                        <input type="text" id="name" name="name" value={formData.name} placeholder="Name" onChange={handleChange} className="mb-8 w-full appearance-none rounded-lg border border-stone-50/30 bg-transparent px-3 py-2 text-sm focus:border-stone-400 focus:outline-none"/>
+                        <input type="text" id="name" name="name" value={formData.name} placeholder="Name" onChange={handleChange} className="w-full appearance-none rounded-lg border border-stone-50/30 bg-transparent px-3 py-2 text-sm focus:border-stone-400 focus:outline-none"/>
                         {errors.name && (
                             <motion.p 
                             initial={{ opacity: 0 }}
@@ -88,9 +88,8 @@ const ContactForm = () => {
                             </motion.p>
                         )}
                     </div>
-                </div>
-                <div className="lg:w-1/2">
-                        <input type="text" id="email" name="email" value={formData.email} placeholder="Email" onChange={handleChange} className="mb-8 w-full appearance-none rounded-lg border border-stone-50/30 bg-transparent px-3 py-2 text-sm focus:border-stone-400 focus:outline-none"/>
+                    <div className="lg:w-1/2">
+                        <input type="text" id="email" name="email" value={formData.email} placeholder="Email" onChange={handleChange} className="w-full appearance-none rounded-lg border border-stone-50/30 bg-transparent px-3 py-2 text-sm focus:border-stone-400 focus:outline-none"/>
                         {errors.email && (
                             <motion.p 
                             initial={{ opacity: 0 }}
@@ -100,8 +99,9 @@ const ContactForm = () => {
                             </motion.p>
                         )}
                     </div>
+                </div>
                     <div className="mb-4">
-                        <textarea id="message" name="message" value={formData.message} placeholder="Message" onChange={handleChange} className="mb-8 w-full appearance-none rounded-lg border border-stone-50/30 bg-transparent px-3 py-2 text-sm focus:border-stone-400 focus:outline-none" rows="6"/>
+                        <textarea id="message" name="message" value={formData.message} placeholder="Message" onChange={handleChange} className="w-full appearance-none rounded-lg border border-stone-50/30 bg-transparent px-3 py-2 text-sm focus:border-stone-400 focus:outline-none" rows="6"/>
                         {errors.message && (
                             <motion.p 
                             initial={{ opacity: 0 }}
