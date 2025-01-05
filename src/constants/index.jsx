@@ -34,7 +34,7 @@ export const HERO = {
   name: "ACHMAD RAJA Q Z",
   greet: "Hello there! 👋🏻",
   description:
-    "I am a passionate developer with a knack for creating good and functional user interfaces. I like transforming ideas into engaging web experiences for over a decade.",
+    "I am a passionate developer with a knack for creating good and functional user interfaces. I like transforming ideas into engaging web experiences.",
 };
 
 export const PROJECTS = [
@@ -44,54 +44,54 @@ export const PROJECTS = [
     description:
       "A personal portfolio website built with React and Tailwind CSS to showcase my skills, projects, and contact information.",
     image: projectImage1,
-    githubLink: "https://github.com/user/personal-portfolio",
+    githubLink: "https://github.com/achmadraja/achmad-raja",
   },
   {
     id: 2,
-    name: "E-Commerce Platform",
+    name: "JuraganCOD",
     description:
-      "An e-commerce web application developed using Next.js and Stripe for payment integration, featuring a comprehensive product catalog, shopping cart, and checkout system.",
+      "JuraganCOD is a platform that provides COD (Cash On Delivery) and Non-COD multi-courier delivery management services in partnership with various leading expeditions in Indonesia.",
     image: projectImage2,
-    githubLink: "https://github.com/user/ecommerce-platform",
+    githubLink: "https://juragancod.com/",
   },
   {
     id: 3,
-    name: "Task Management Tool",
+    name: "Semarang Technopark",
     description:
-      "A task management application built with React and Redux for efficient task tracking and team collaboration, including features like project boards, task assignment, and progress tracking.",
+      "A website that provides information on workshops/seminars, startup incubation programs, coworking spaces and equipment rentals for all students, students and the general public domiciled in the city of Semarang, Central Java.",
     image: projectImage3,
-    githubLink: "https://github.com/user/task-management-tool",
+    githubLink: "https://github.com/achmadraja/Technoparkweb-Backend",
   },
   {
     id: 4,
-    name: "Weather App",
+    name: "SMK Setiabudhi Green School",
     description:
-      "A weather application that uses the OpenWeatherMap API to fetch and display current weather data and forecasts for various locations, built with React and styled-components.",
+      "The website was built for the SMK Setiabudhi Green School project which teaches about sustainable lifestyles.",
     image: projectImage4,
-    githubLink: "https://github.com/user/weather-app",
+    githubLink: "https://dev.smksetiabudhisemarang.sch.id/",
   },
   {
     id: 5,
-    name: "Blog Platform",
+    name: "Cassava Leaf Disease Classification",
     description:
-      "A blogging platform developed with Next.js and Markdown for creating, editing, and publishing blog posts. It features a rich text editor, tag system, and user authentication.",
+      "A website to predict cassava leaf disease using the python programming language and the CNN (Convolutional Neural Network) algorithm.",
     image: projectImage5,
-    githubLink: "https://github.com/user/blog-platform",
+    githubLink: "https://github.com/achmadraja/cassavaleafdiseaseclassification",
   },
-  {
-    id: 6,
-    name: "Chat Application",
-    description:
-      "A real-time chat application using Firebase for backend services, including user authentication, chat rooms, and instant messaging features. Built with React and Firebase.",
-    image: projectImage6,
-    githubLink: "https://github.com/user/chat-application",
-  },
+  // {
+  //   id: 6,
+  //   name: "Chat Application",
+  //   description:
+  //     "A real-time chat application using Firebase for backend services, including user authentication, chat rooms, and instant messaging features. Built with React and Firebase.",
+  //   image: projectImage6,
+  //   githubLink: "https://github.com/user/chat-application",
+  // },
 ];
 
 export const BIO = [
-  "Carl Frank studied computer science at the University of Technology,from which he graduated in 2010. Following his education, he honed his craft and expertise over the course of 10 years at Tech Innovations Inc., where he immersed himself in the world of frontend development.",
-  "In 2021, driven by a shared vision for innovative web solutions and a passion for creating extraordinary user experiences Carl Frank co-founded WebArtistry alongside his creative partner, Jane Doe. Together, they set out to redefine frontend development, infusing their projects with creativity and cutting-edge technology.",
-  "As a multi-disciplinary frontend developer, Carl Frank brings a wealth of skills and expertise to his work. From his deep understanding of HTML, CSS, and JavaScript to his proficiency in modern frameworks like React and Vue.js, Carl Frank possesses a versatile skill set that allows him to craft stunning and unforgettable web experiences for his clients and audiences alike.",
+  "I am Achmad Raja Qodli Zaka, a passionate developer and 2024 graduate from Universitas Negeri Semarang in Informatics and Computer Engineering Education. During my studies, I gained hands-on experience as a Backend Developer intern at SEAL AWS, where I built APIs for the Semarang Technopark website. I also participated in the Studi Independen program with PT. Microsoft Indonesia, gaining expertise in cloud technologies and DevOps, and developed the 'Belajarin Aja' educational portal as my Capstone Project.",
+  "As a developer, I’ve had the opportunity to work as the Head of TKJ Expertise Competency at SMK Setiabudhi in 2024, where I managed the school's website using WordPress. In 2023, I worked as a Fullstack Developer at JuraganCOD, where I focused on creating responsive web interfaces with HTML, CSS, PHP, and Laravel, optimizing performance, and improving the user experience through design enhancements.",
+  "Earlier in my career, I interned at Dinas Komunikasi, Informatika, Statistik dan Persandian Kota Semarang, where I contributed to data development for the Semarang Satu Data platform. These experiences have equipped me with a solid foundation in web development, backend programming, and cloud technologies, and I am excited to continue growing as a developer.",
 ];
 
 export const SKILLS = [

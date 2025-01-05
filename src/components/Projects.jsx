@@ -43,7 +43,7 @@ const Projects = () => {
                                 rel="noopener noreferrer" 
                                 className="rounded-full bg-white px-4 py-2 text-black hover:bg-gray-300">
                                     <div className="flex items-center">
-                                        <span>View on Github</span>
+                                        <span>View Project</span>
                                         <MdArrowOutward />
                                     </div>
                                 </a>
