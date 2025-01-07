@@ -10,12 +10,12 @@ import {
   FaWordpress,
 } from "react-icons/fa6";
 
-import projectImage1 from "../assets/project1.jpeg";
-import projectImage2 from "../assets/project2.jpeg";
-import projectImage3 from "../assets/project3.jpeg";
-import projectImage4 from "../assets/project4.jpeg";
-import projectImage5 from "../assets/project5.jpeg";
-import projectImage6 from "../assets/project6.jpeg";
+import projectImage1 from "../assets/project1.png";
+import projectImage2 from "../assets/project2.png";
+import projectImage3 from "../assets/project3.png";
+import projectImage4 from "../assets/project4.png";
+import projectImage5 from "../assets/project5.png";
+import projectImage6 from "../assets/project6.png";
 
 import { RiReactjsLine } from "react-icons/ri";
 import { FaNodeJs } from "react-icons/fa";
@@ -78,14 +78,14 @@ export const PROJECTS = [
     image: projectImage5,
     githubLink: "https://github.com/achmadraja/cassavaleafdiseaseclassification",
   },
-  // {
-  //   id: 6,
-  //   name: "Chat Application",
-  //   description:
-  //     "A real-time chat application using Firebase for backend services, including user authentication, chat rooms, and instant messaging features. Built with React and Firebase.",
-  //   image: projectImage6,
-  //   githubLink: "https://github.com/user/chat-application",
-  // },
+  {
+    id: 6,
+    name: "MyMoney",
+    description:
+      "A website built with React Js to manage finances with an easy-to-understand interface for users.",
+    image: projectImage6,
+    githubLink: "https://mymoney-seal.netlify.app/",
+  },
 ];
 
 export const BIO = [

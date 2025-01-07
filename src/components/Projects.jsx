@@ -32,10 +32,10 @@ const Projects = () => {
                             whileHover={{ opacity:1 }}
                             transition={{ duration: 0.5 }}
                             className="absolute inset-0 flex flex-col items-center justify-center text-white opacity-0 backdrop-blur-lg transition-opacity duration-500 group-hover:opacity-100">
-                                <h3 className="mb-2 text-xl">
+                                <h3 className="mb-2 text-xl text-black">
                                     {project.name}
                                 </h3>
-                                <p className="mb-12 p-4">
+                                <p className="mb-12 p-4 text-black">
                                     {project.description}
                                 </p>
                                 <a href={project.githubLink} 
