@@ -68,7 +68,7 @@ export const PROJECTS = [
     description:
       "The website was built for the SMK Setiabudhi Green School project which teaches about sustainable lifestyles.",
     image: projectImage4,
-    githubLink: "https://dev.smksetiabudhisemarang.sch.id/",
+    githubLink: "https://smksetiabudhisemarang.sch.id/",
   },
   {
     id: 5,
