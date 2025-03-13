@@ -1,6 +1,6 @@
 import { HERO } from "../constants";
 import rajaImg from "../assets/raja.jpg";
-import rajaResume from "../assets/Resume - Achmad Raja.pdf";
+import rajaResume from "../assets/Resume - Achmad Raja Qodli Zaka.pdf";
 import { motion } from "framer-motion";
 import Typewriter from 'typewriter-effect';
 import { HiDocumentArrowDown } from "react-icons/hi2";
